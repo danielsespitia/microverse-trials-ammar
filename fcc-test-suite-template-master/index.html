@@ -4,7 +4,18 @@
     <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css" />
-    <style></style>
+    <style>
+      #nav-bar {
+        position: fixed;
+      }
+      @media (max-width: 991) {
+        #nav-bar {
+          width: 500px;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    </style>
   </head>
   <body>
     <header id="header">
@@ -19,19 +30,19 @@
           <li class="nav-link"><a href="#extra-features">Extra Features</a></li>
         </ul>
       </nav>
-      <section id="features"></section>
-      <section id="pricing"></section>
-      <section id="extra-features"></section>
-      <video id="video" width="320" height="300">
-        <source src="https://www.youtube.com/embed/IRUNTOqCmAM" />
-      </video>
-      <form id="form">
-        <input type="email" required id="email" placeholder="email" />
-        <input type="submit" id="submit" action="https://www.freecodecamp.com/email-submit"/>
-      </form>
+      <p>Hello World! we are software developers</p>
     </header>
+    <section id="features"></section>
+    <section id="pricing"></section>
+    <section id="extra-features"></section>
+    <video id="video" width="320" height="300">
+      <source src="https://www.youtube.com/embed/IRUNTOqCmAM" />
+    </video>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input type="email" required id="email" placeholder="email" />
+      <input type="submit" id="submit" />
+    </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <p>Hello World! we are software developers</p>
     <!--
 
     Hello Camper!
